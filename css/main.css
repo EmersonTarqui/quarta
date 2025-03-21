@@ -1,13 +1,13 @@
-@import url('/css/animacao/animacao.css');
-@import url('/css/base/reset.css');
-@import url('/css/base/typography.css');
-@import url('/css/layout/header.css');
-@import url('/css/layout/sobre.css');
-@import url('/css/layout/eventos.css');
-@import url('/css/layout/redes.css');
-@import url('/css/layout/footer.css');
-@import url('/css/layout/delivery.css');
-@import url('/css/layout/home.css');
+@import url('./css/animacao/animacao.css');
+@import url('./css/base/reset.css');
+@import url('./css/base/typography.css');
+@import url('./css/layout/header.css');
+@import url('./css/layout/sobre.css');
+@import url('./css/layout/eventos.css');
+@import url('./css/layout/redes.css');
+@import url('./css/layout/footer.css');
+@import url('./css/layout/delivery.css');
+@import url('./css/layout/home.css');
 @import url('./css/module/cards.css');
 
 
