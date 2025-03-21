@@ -8,7 +8,7 @@
 @import url('./css/layout/footer.css');
 @import url('./css/layout/delivery.css');
 @import url('./css/layout/home.css');
-/* @import url('./css/module/cards.css'); */
+@import url('./css/module/cards.css');
 
 :root {
     --main-color:#5c3b31;
