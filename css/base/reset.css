@@ -1,0 +1,14 @@
+body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.container, .row, .col {
+    padding: 0 !important;
+    margin: 0 auto !important;
+}

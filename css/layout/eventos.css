@@ -1,0 +1,20 @@
+.eventos {
+    background: var(--main-color);
+    height: auto;
+    width: 100% ;
+    padding-top: 15px;
+}
+
+.text-eventos{
+    font-size: 35px;
+    color: #fff;
+}
+
+/* .row {
+    display: grid !important;
+    grid-template-columns: repeat(5,1fr) !important; 
+}
+
+.col-sm-13 {
+    grid: 1 !important;
+} */

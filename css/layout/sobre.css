@@ -1,0 +1,14 @@
+.sobre {
+    margin: auto;
+    background:var(--main-color);
+    height: auto;
+    width: 100%;
+    padding: 30px;
+}
+
+
+
+.text-pedidos{
+    font-size: 35px;
+    color: #fff;
+} 

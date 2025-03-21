@@ -1,0 +1,92 @@
+.redes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-height: auto;
+    width: 100%;
+    background: var(--second-color);
+    padding: 10px;
+}
+
+
+.mainredes {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.instagram {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25px;
+    gap: 20px;
+    color: black;
+    font-size: 25px;
+    height: 80px;
+    width: 340px;
+    background: white;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.facebook {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25px;
+    gap: 20px;
+    color: black;
+    font-size: 25px;
+    height: 80px;
+    width: 340px;
+    background: white;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+
+.celular-redes img {
+   height: 700px;
+   align-items: center;
+   justify-content: center;
+}
+
+.celular-redes {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.mainredes h4 {
+    color: #a1430b;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+@media(max-width:768px) {
+    .redes {
+        grid-template-columns: 1fr;
+    }
+
+    .celular-redes img {
+        height: 600px;
+     }
+     
+     .celular-redes {
+
+         margin: 0 auto;
+     }
+
+     .mainredes {
+        grid-column: 1;
+    }
+    
+  
+
+}

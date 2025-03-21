@@ -1,0 +1,62 @@
+.card {
+    border: solid 3px #fbec9d;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%; /* Usa porcentagem para adaptar melhor em telas menores */
+    max-width: 300px; /* Limita o tamanho máximo */
+    transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: scale(1.09);
+    z-index: 500;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column; /* Mantém tudo empilhado sem sobreposição */
+    align-items: center;
+    gap: 20px; /* Reduzi o gap para evitar espaços excessivos */
+    padding-top: 20px;
+    width: 100%;
+}
+
+.card-text1, .card-text2, .card-text3 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Ajusta dinamicamente para evitar cortes */
+    min-height: 100px;
+    width: 90%; /* Adapta melhor em telas menores */
+    max-width: 280px; /* Evita que cresça demais */
+    padding: 10px;
+    color: white;
+    background: #d37818;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    word-wrap: break-word; /* Evita estouro de texto */
+}
+
+/* Responsividade total */
+@media (max-width: 768px) {
+    .card {
+        height: auto;
+    }
+
+    .card-text {
+        gap: 15px;
+        padding-top: 10px;
+    }
+
+    .card-text1, .card-text2, .card-text3 p {
+        font-size: 16px;
+        min-height: 80px;
+        padding: 8px;
+    }
+}
