@@ -11,7 +11,7 @@ footer {
     height: 100px;
     background: black !important;
     color: white;
-    font-size: 2px;
+    font-size: 18px;
     width: 100%;
 }
 
@@ -23,6 +23,10 @@ footer {
 
 .text-footer {
     text-align: center;
+}
+
+.text-footer h6 {
+    font-size: small;
 }
 
 @media(max-width:768px){
