@@ -9,9 +9,9 @@ footer {
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    background: blue !important;
+    background: black !important;
     color: white;
-    font-size: 20px;
+    font-size: 2px;
     width: 100%;
 }
 
