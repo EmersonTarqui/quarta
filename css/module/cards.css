@@ -21,10 +21,9 @@
     flex-direction: column; 
     align-items: center;
     gap: 20px;
+    padding-top: 20px;
     width: 100%;
 }
-
-
 
 .card-text1, .card-text2, .card-text3 p {
     display: flex;
