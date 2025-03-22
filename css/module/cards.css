@@ -24,9 +24,7 @@
     width: 100%;
 }
 
-.card-body{
-    justify-content: center;
-}
+
 
 .card-text1, .card-text2, .card-text3 p {
     display: flex;
