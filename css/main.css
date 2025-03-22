@@ -1,4 +1,5 @@
 @import url('/animacao/animacao.css');
+@import url('/css/module/cards.css');
 
 :root {
     --main-color:#5c3b31;
