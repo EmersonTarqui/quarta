@@ -1,14 +1,14 @@
-@import url('./animacao/animacao.css');
-@import url('./base/reset.css');
-@import url('./base/typography.css');
-@import url('./layout/header.css');
-@import url('./layout/sobre.css');
-@import url('./layout/eventos.css');
-@import url('./layout/redes.css');
-@import url('./layout/footer.css');
-@import url('./layout/delivery.css');
-@import url('./layout/home.css');
-@import url('./module/cards.css');
+@import url('/animacao/animacao.css');
+@import url('/base/reset.css');
+@import url('/base/typography.css');
+@import url('/layout/header.css');
+@import url('/layout/sobre.css');
+@import url('/layout/eventos.css');
+@import url('/layout/redes.css');
+@import url('/layout/footer.css');
+@import url('/layout/delivery.css');
+@import url('/layout/home.css');
+@import url('/module/cards.css');
 
 :root {
     --main-color:#5c3b31;
