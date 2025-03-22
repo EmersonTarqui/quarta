@@ -33,14 +33,14 @@
     min-height: 100px;
     width: 90%; /* Adapta melhor em telas menores */
     max-width: 280px; /* Evita que cresça demais */
-   
+    padding: 10px;
     color: white;
     background: #d37818;
     border-radius: 30px;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    word-wrap: break-word; /* Evita estouro de texto */
+    
 }
 
 /* Responsividade total */
