@@ -12,7 +12,7 @@
 @import url(./css/theme/);
 @import url('./css/animacao/animacao.css');
 @import url(./css/state/);
-@import url('./css/layout/delivery.css');
+@import url('.quarta-main/css/layout/delivery.css');
 @import url(./css/layout/footer.css);
 
 :root {
