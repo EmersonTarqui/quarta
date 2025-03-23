@@ -47,5 +47,11 @@ font-size: 19px !important;
 }
 
 .navbar-toggler-icon {
-    filter: invert(100%); /* Branco */
+    filter: invert(100%); 
+}
+
+@media(max-width:768px){
+    .navbar {
+        padding: 10px !important;
+    }
 }
