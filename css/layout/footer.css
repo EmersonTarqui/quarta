@@ -1,37 +1,63 @@
-.bandeiras {
-    display: flex;
-    gap: 20px;
-    height: auto;
-}
-
 footer {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     align-items: center;
     height: 100px;
     background: black !important;
     color: white;
     font-size: 18px;
     width: 100%;
+    padding: 10px;
 }
 
 .logofooter {
-    position: relative;
+    padding-right: 25px;
+}
+
+
+.logofooter img {
     height: auto;
-    justify-content: center;
+    width: 60px;
 }
 
 .text-footer {
+    grid-column: 2;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.text-footer h6 {
-    font-size: small;
+.text-footer h6{
+    font-size: 17px;
 }
 
-@media(max-width:768px){
-    .bandeiras {
-        gap: 5px;
-        
+.bandeiras {
+    display: flex;
+    gap: 10px;
+}
+
+.bandeiras img {
+    width: 90px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+        height: auto;
+        padding: 20px;
+        gap: 10px;
     }
+
+    .bandeiras {
+        justify-content: center;
+    }
+
+    .text-footer {
+        grid-column: 1;
+}
+
 }
